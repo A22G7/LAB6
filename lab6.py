@@ -46,7 +46,7 @@ while selection!="3":
         print(f"Your password has been encoded and stored")
     elif selection == "2":
         decode(encoded_password)
-        print(f"{password},{encoded_password},{decoded_password}")
+        print(f"The encoded password is {encoded_password}, and the original password is {decoded_password}.cd")
     else:
         pass
 
